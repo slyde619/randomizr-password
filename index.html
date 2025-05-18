@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/css/boxicons.min.css" integrity="sha512-cn16Qw8mzTBKpu08X0fwhTSv02kK/FojjNLz0bwp2xJ4H+yalwzXKFw/5cLzuBZCxGWIA+95X4skzvo8STNtSg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <header>
+        <h1 class="header-gradient">Randomizr Password
+            <span>Generator</span>
+        </h1>
+    </header>
+    <main>
+        <form id="form" class="form">
+            <div class="form-group">
+                <label for="password">
+                    <input type="text" id="password" name="password" placeholder="Password">
+                </label>
+                <i id="copy" class='bx bx-copy'></i>
+            </div>
+            <button type="submit" id="generateBtn"> <i class="bx bx-cog">&nbsp;</i>Generate</button>
+        </form>
+    </main>
+    <footer>
+        Design and Developed By <a href="https://github.com/slyde619" class="footer-link">Gee</a>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+</html>
