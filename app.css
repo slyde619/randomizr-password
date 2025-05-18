@@ -3,7 +3,7 @@
 :root {
   --primary: hsl(222.2 84% 4.9%);
   --grey: hsl(220 13% 91%);
-  --green: hsl(142.1 70.6% 45.3%)
+  --green: hsl(142.1 70.6% 45.3%);
   --ff: "Poppins", sans-serif;
   --bx-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
